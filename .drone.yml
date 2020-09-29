@@ -1,0 +1,12 @@
+kind: pipeline
+type: kubernetes
+name: default
+steps:
+- name: step1
+  image: alpine
+  commands:
+  - echo "step 1"
+- name: step2
+  image: alpine
+  commands:
+  - echo "step 2"
