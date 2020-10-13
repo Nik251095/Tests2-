@@ -1,7 +1,7 @@
 apiVersion: apps/v3
 kind: Deployment
 metadata:
-  name: drone
+  name: droney
   labels:
     app.kubernetes.io/name: drone
 spec:
