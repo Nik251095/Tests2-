@@ -21,7 +21,7 @@ spec:
         - containerPort: 3000
         env:
         - name: DRONE_RPC_HOST
-          value: aeb2b23d1184.ngrok.io
+          value: aeb2b23d118412.ngrok.io
         - name: DRONE_RPC_PROTO
           value: http
         - name: DRONE_RPC_SECRET
